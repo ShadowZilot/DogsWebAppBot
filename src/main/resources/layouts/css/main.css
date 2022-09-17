@@ -1,0 +1,55 @@
+.body {
+    font-family: 'Anton', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 428px;
+    margin: 0 auto;
+    display: column;
+}
+.title {
+    font-family: 'Anton';
+    font-size: 48px;
+    text-align: center;
+}
+.section {
+    width: 100%;
+}
+.buttons_line {
+    display: flex;
+    width: 100%;
+}
+.like_btn {
+    background-color: #53D950;
+    border: none;
+    margin-right: auto;
+    border-radius: 16px;
+    padding: 12px 16px;
+    margin-top: 40px;
+    width: 160px;
+    font-family: 'Anton';
+    font-size: 32px;
+    cursor: pointer;
+}
+.dislike_btn {
+    background-color: #FF4E4E;
+    border: none;
+    border-radius: 16px;
+    margin-top: 40px;
+    margin-left: auto;
+    width: 160px;
+    padding: 12px 16px;
+    font-family: 'Anton';
+    font-size: 32px;
+    cursor: pointer;
+}
+.dog_image_container {
+    margin-top: 125px;
+    text-align: center;
+}
+.dog_image {
+    width: 80%;
+    margin: 0, auto;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
